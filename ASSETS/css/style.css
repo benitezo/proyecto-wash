@@ -1,0 +1,36 @@
+body{
+
+    background-color: rgb(4, 242, 250);
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    color: black;
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.responsivo{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen img{
+
+    width: 400; height: 280;
+    display: block;
+    margin-top: auto;
+}
+
+@media (max-width: 900px) {
+    body, .responsivo, .div.imagen img {width:100%}
+}
+
+.carousel-item {
+
+font-size: 24px;
+range: 400px;
+
+}
+    
